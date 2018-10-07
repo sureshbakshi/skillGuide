@@ -1,0 +1,30 @@
+.biZmodal {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    bottom: 0;
+    margin: 0 auto;
+    left: 0;
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 1050;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    width: 500px;
+    height: 300px;
+    background-color: #ffffff;
+    padding: 12px;
+    
+}
+
+.backdrop {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1040;
+    opacity: 0.75;
+    background-color: #00234b;
+}

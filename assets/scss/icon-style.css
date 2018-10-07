@@ -1,0 +1,98 @@
+@font-face {
+  font-family: 'bizTrack_icons';
+  src:  url('./../fonts/bizTrack_icons.eot?5z1o1a');
+  src:  url('./../fonts/bizTrack_icons.eot?5z1o1a#iefix') format('embedded-opentype'),
+    url('./../fonts/bizTrack_icons.ttf?5z1o1a') format('truetype'),
+    url('./../fonts/bizTrack_icons.woff?5z1o1a') format('woff'),
+    url('./../fonts/bizTrack_icons.svg?5z1o1a#bizTrack_icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'bizTrack_icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-advisor:before {
+  content: "\e900";
+}
+.icon-bussinesPartner:before {
+  content: "\e901";
+}
+.icon-call:before {
+  content: "\e902";
+}
+.icon-checkmark:before {
+  content: "\e903";
+}
+.icon-connect:before {
+  content: "\e904";
+}
+.icon-grid:before {
+  content: "\e905";
+}
+.icon-grow:before {
+  content: "\e906";
+}
+.icon-hambuger:before {
+  content: "\e907";
+}
+.icon-idea:before {
+  content: "\e908";
+}
+.icon-info:before {
+  content: "\e909";
+}
+.icon-investor:before {
+  content: "\e90a";
+}
+.icon-learn:before {
+  content: "\e90b";
+}
+.icon-lock:before {
+  content: "\e90c";
+}
+.icon-mail:before {
+  content: "\e90d";
+}
+.icon-power:before {
+  content: "\e90e";
+}
+.icon-rightArrow:before {
+  content: "\e90f";
+}
+.icon-setting:before {
+  content: "\e910";
+}
+.icon-settings:before {
+  content: "\e911";
+}
+.icon-settingschange:before {
+  content: "\e912";
+}
+.icon-settingsGear:before {
+  content: "\e913";
+}
+.icon-track:before {
+  content: "\e914";
+}
+.icon-upload:before {
+  content: "\e915";
+}
+.icon-user:before {
+  content: "\e916";
+}
+.icon-user2:before {
+  content: "\e917";
+}

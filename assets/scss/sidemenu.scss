@@ -1,0 +1,64 @@
+@import './main.scss';
+.sidemenu-icon {
+    padding:  50px 50px 0px 50px;
+    .icon-hambuger {
+        color: white;
+        font-size: 30px
+    }
+}
+@media screen and (min-width: 320px) and( max-width:768px) {
+    .sidemenu-icon {
+        padding:10px;
+    }
+}
+
+.sideMenu {
+    padding: 0px 0px 0px 35px;
+    height: 100vh;
+    position: relative;
+    background-color: #fff;
+    .menu {
+        padding: 50px 0px 0px 0px;
+        width: 315PX;
+        height: 90px;
+        .icon-hambuger {
+            color: #00234b;
+        }
+        span {
+            margin: 60px;
+            font-family: 'Montserrat';
+            font-size: 25.3px;
+            font-weight: 600;
+            color: #00234b;
+        }
+    }
+    .selected {
+        background-image: linear-gradient(256deg, #00bbe5, #00fd8e);
+        color: white
+    }
+    .view {
+        width: 315PX;
+        height: 90px;
+        margin-top: 15px;
+        font-family: 'Montserrat';
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 90px;
+    }
+    .icon-info,
+    .icon-settings,
+    .icon-user2,
+    .icon-grid,
+    .icon-user,
+    .icon-power {
+        width: 50px;
+        font-size: 50px;
+        vertical-align: middle;
+        color: white;
+        padding: 0px 17px 0px 0px;
+        background: linear-gradient(225deg, #00bbe5, #00fd8e);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

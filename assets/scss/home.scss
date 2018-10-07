@@ -1,0 +1,31 @@
+@import'./main.scss';
+.homeContent {
+    height: 100%;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 50px;
+    .entrep,
+    .investors,
+    .bussinesPartnr {
+        margin-right: 20px;
+    }
+    .bussinesPartnr,
+    .advisors {
+        margin-top: 174px;
+    }
+}
+@media screen and (min-width: 320px) and( max-width:1200px){
+    .homeContent{
+        width: 100%;
+        flex-direction: column;
+        display: inline-flex;
+        padding: 0px;
+        .entrep,
+        .investors,
+        .bussinesPartnr,
+        .bussinesPartnr,
+        .advisors  {
+            margin: 20px;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+@import'./main.scss';
+.innerContent {
+    max-width: 1390px;
+    padding: 0px 50px 50px 50px;
+    margin: 0 auto;
+    .head {
+        height: 200px;
+        background-image: linear-gradient(262deg, #00bbe5, #00fd8e);
+        position: relative;
+        .headerImage {
+            width: 250px;
+            height: 250px;
+            box-shadow: 0 0 17px 0 rgba(0,35,75,0.20);
+            background-color: #ffffff;
+            position: absolute;
+            top: 75px;
+            left: 60px;
+            .icon-advisor,
+            .icon-investor,
+            .icon-bussinesPartner,
+            .icon-idea {
+                font-size: 220px;
+                width: 220px;
+                margin: 15px auto;
+                text-align: center;
+                display: block;
+                background: linear-gradient(225deg, #00bbe5, #00fd8e);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+        .headerTitle {
+            padding: 100px 0px 30px 345px;
+            span {
+                font-family: 'Montserrat';
+                font-size: 54px;
+                font-weight: 300;
+                text-align: left;
+                color: #ffffff;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .content {
+        height: 570px;
+        background-color: #ffffff;
+    }
+}

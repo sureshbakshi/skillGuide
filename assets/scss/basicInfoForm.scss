@@ -1,0 +1,35 @@
+
+
+.basicInfoForm{
+    .heading{
+        font-family: 'Montserrat';
+        font-size: 32px;
+        font-weight: 300;
+        text-align: left;
+        color: #00234b;
+        padding: 30px 0px 20px 345px;
+        
+    }
+    .formContent{
+        padding-top: 40px;
+        height: 410px;
+        width: 778px;
+        margin: 0 auto;
+        input[type = text]{
+            width: 300px;
+            height: 30px;
+            font-family: 'Montserrat';
+            font-size: 15.4px;
+            font-weight: 300;
+            text-align: left;
+            color: #00234b;
+            border-bottom: solid 1px rgba(0, 35, 75, 0.25);
+            padding: 7px;
+            margin-bottom: 30px;
+        }
+        input[type = text]:nth-child(odd){
+            margin-right: 172px;
+        }
+    }
+    
+}
