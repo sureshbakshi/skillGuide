@@ -1,17 +1,15 @@
 import * as React from 'react';
 import Header from './header';
 import Main from './main';
-import SideMenuIcon from './sidemenuIcon'
 class App extends React.Component<{}, any> {
     constructor(props) {
         super(props);
     }
     render() {
         return (
-            <div className="mainContainer appBg">
+            <div className='mainContainer '>
                 <div className='headerWrapper'>
-                <Header />
-                <SideMenuIcon />
+                    <Header />
                 </div>
                 <Main />
             </div >

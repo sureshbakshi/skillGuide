@@ -26,7 +26,7 @@ module.exports = options = {
         hot: true, // hot module replacement. Depends on HotModuleReplacementPlugin
         https: false, // true for self-signed, object for cert authority
         noInfo: false, // only errors & warns on hot reload
-        port: 8080,
+        port: 8100,
         host: 'localhost',
         disableHostCheck: true,
         open: true, //the dev server will open the browser.

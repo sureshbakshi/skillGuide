@@ -1,21 +1,25 @@
 import * as React from 'react';
-import '../../assets/scss/main.scss'
+import '../../assets/scss/main.scss';
+let logo = require('./../../assets/images/logo.svg');
+import { Link } from 'react-router-dom';
+import Sidemenu from '../components/sidemenu';
+// let newlogo = require('./../../assets/images/logo2.jpgsvg');
 
-let logo = require('./../../assets/images/biztrack.svg')
-
-export class Header extends React.Component<any, any>{
+export class Header extends React.Component<any, any> {
     constructor(props: any) {
         super(props);
 
     }
     render() {
         return (
-            <div className='header'>
-                <img src={logo} />
+            <div>
+            <header className='header'>
+            <Link to={'/'}><img src={logo} /></Link>
+            </header>
+            <Sidemenu></Sidemenu>
             </div>
-        )
+        );
     }
 }
-
 
 export default Header;

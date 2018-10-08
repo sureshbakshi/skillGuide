@@ -19,11 +19,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://jsantosh93@bitbucket.org/jsantosh93/offerszone-browser-app.git"
+    "url": "git+https://github.com/sureshbakshi/skillGuide"
   },
-  "author": "Purpletalk",
+  "author": "Suresh",
   "license": "MIT",
-  "homepage": "https://bitbucket.org/jsantosh93/offerszone-browser-app#readme",
+  "homepage": "https://github.com/sureshbakshi/skillGuide/blob/master/README.md",
   "dependencies": {
     "@types/axios": "0.14.0",
     "@types/es6-promise": "0.0.33",
@@ -97,7 +97,7 @@
     "watchpack": "1.3.1",
     "webpack": "3.0.0",
     "webpack-bundle-analyzer": "2.8.2",
-    "webpack-dev-server": "2.9.1",
+    "webpack-dev-server": "^2.9.1",
     "webpack-hot-middleware": "2.18.0"
   }
 }
