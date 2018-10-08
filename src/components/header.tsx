@@ -15,6 +15,7 @@ export class Header extends React.Component<any, any> {
             <div>
             <header className='header'>
             <Link to={'/'}><img src={logo} /></Link>
+            
             </header>
             <Sidemenu></Sidemenu>
             </div>
