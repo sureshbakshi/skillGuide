@@ -15,18 +15,10 @@ This  template is basic setup for react+redux. Can be used to kick start a proje
 
 1. `npm install`  
 2. `typings install`
-3. `npm start` (Open http://localhost:3000/)
+3. `npm start` (Open http://localhost:8100/)
 
 
 ## Release Notes 
-
-
-TODO's:
-1. Basic Login, logout using sample Node API
-2. Perfect setup of react routing 
-3. Update ReadMe with all build config scripts
-
-
 
 # v1.0.1
 1. Updated build configs and scripts
