@@ -127,7 +127,7 @@ button:focus {
         background-color: #fff;
         opacity: 1;
         transform: translateY(0);
-        transition: transform .3s cubic-bezier(.4,0,.2,1) .3s,opacity 0s .3s;
+        transition: transform .3s cubic-bezier(.4, 0, .2, 1) .3s, opacity 0s .3s;
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
         img {
             max-width: 180px;
@@ -136,4 +136,33 @@ button:focus {
     }
 }
 
-
+.main-container {
+    position: relative;
+    width: calc(100% - 230px);
+    margin-left: auto;
+    top: 55px;
+}
+// breadcrumb styles
+nav.breadcrumb {
+        list-style: none;
+        background-color: #ffffff;
+        border-radius: 0;
+        border-bottom: 1px solid $border-primary;
+    ol {
+        list-style: none;
+        display: flex;
+        margin-bottom: 0px;
+        .list-item {
+            padding: 10px;
+            position: relative;
+            &:before {
+                content: '/';
+                position: absolute;
+                left: -2px;
+            }
+            &:first-of-type:before {
+                content: '';
+            }
+        }
+    }
+}

@@ -1,0 +1,10 @@
+nav {
+    .breadcrumb li+li::before {
+        display: inline-block;
+        margin: 0 .25em;
+        transform: rotate(15deg);
+        border-right: .1em solid currentColor;
+        height: .8em;
+        content: '';
+    }
+}
