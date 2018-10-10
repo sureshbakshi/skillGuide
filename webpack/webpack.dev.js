@@ -75,7 +75,18 @@ module.exports = options = {
             //SCSS loader
             test: /\.scss$/,
             include: path.join(__dirname, '../assets/scss'),
-            loaders: ["style-loader", "css-loader", "sass-loader"]
+            use: [
+                'style-loader',
+                'css-loader',
+                'sass-loader',
+                {
+                    loader: 'sass-loader',
+                    options: {
+                        data: '@import "../assets/scss/variables.scss";',
+                        includePaths: [__dirname, '../assets/scss']
+                    },
+                },
+            ],
         },
         {
             // CSS loader
