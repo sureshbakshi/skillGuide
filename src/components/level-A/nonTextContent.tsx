@@ -17,10 +17,10 @@ export class NonTextContent extends React.Component<any, any> {
             <div className='cotent-container'>
                 <div className='row'>
                 <div className='col-8'>
-                    <div className='card'>{'lorem ipsum'}</div>
+                    <div className='card'></div>
                 </div>
                 <div className='col-4'>
-                {'lorem ipsum'}
+                    <div className='card'></div>
                 </div>
                 </div>
             </div>
