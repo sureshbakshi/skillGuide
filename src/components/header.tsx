@@ -1,6 +1,6 @@
 import * as React from 'react';
-let logo = require('./../../assets/images/logo.png');
-import { Link } from 'react-router-dom';
+// let logo = require('./../../assets/images/logo.png');
+// import { Link } from 'react-router-dom';
 import Sidemenu from '../components/sidemenu';
 
 export class Header extends React.Component<any, any> {
@@ -12,7 +12,7 @@ export class Header extends React.Component<any, any> {
         return (
             <div>
             <header className='header'>
-            <Link to={'/'}><img src={logo} /></Link>
+            {/* <Link to={'/'}><img src={logo} /></Link> */}
             </header>
             <Sidemenu></Sidemenu>
             </div>
