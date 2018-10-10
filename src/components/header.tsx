@@ -1,5 +1,5 @@
 import * as React from 'react';
-let logo = require('./../../assets/images/logo.png');
+let logo = require('./../../assets/images/skillCenter.png');
 import { Link } from 'react-router-dom';
 import Sidemenu from '../components/sidemenu';
 
