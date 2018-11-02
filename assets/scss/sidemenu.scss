@@ -28,4 +28,37 @@
             }
         }
     }
+    .metismenu{
+        font-size: 14px;
+        font-family: "Montserrat", "sans-serif" !important;
+    }
+    .metismenu-link {
+        color: #000;
+        text-shadow: none;
+        margin-bottom: 1px;
+        &.active{
+            background: transparent;
+            border-right: 3px solid $theme-primary;
+        }
+    }
+    I.metismenu-icon{
+        width: 15px;
+    }
+    .metismenu-container .metismenu-container,.metismenu{
+        box-shadow: none;
+        -webkit-box-shadow:none;
+        background: transparent;
+    }
+    .metismenu::after{
+        box-shadow: none;
+        -webkit-box-shadow:none;
+    }
+    .link-child-active{
+        background: #f5f5f5;
+    }
+    .metismenu-item .open{
+            > .metismenu-link{
+                // border-right: 3px solid $theme-primary;
+            }
+    } 
 }
